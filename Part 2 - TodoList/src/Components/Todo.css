@@ -1,0 +1,26 @@
+﻿/* Styles for individual todo items */
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo span {
+    font-size: 16px;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.todo button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.todo button:hover {
+    background-color: #c82333;
+}
